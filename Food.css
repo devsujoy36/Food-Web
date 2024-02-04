@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    align-items: center;
+    font-weight: 600;
+    height: 80px;
+}
+
+.nav-logo-name {
+    font-size: 50px;
+}
+.nav-logo-name a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.nav-logo-name a:hover{
+    text-shadow: 1px 1px 5px  #000000;
+}
+
+.nav-options {
+    padding: 15px;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 10px;
+}
+
+.nav-options a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.nav-login a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: #FF7B03;
+    border-radius: 5px;
+}
+
+.nav-login a:hover {
+    background-color: white;
+    color: orangered;
+    border-radius: 5px;
+}
+
+
+.first-box {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.left-section {
+    width: 50%;
+    padding: 100px;
+
+}
+
+.left-section span {
+    color: orange;
+}
+
+.left-section h1 {
+
+    font-size: 75px;
+}
+
+.left-section p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 25px;
+    margin-top: 80px;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    padding: 30px 50px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 1px rgb(243, 193, 101);
+}
+
+.btn:hover {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 139, 67);
+    padding: 30p0 0;
+    box-shadow: 0px 0px 10px 1px rgb(66, 61, 52);
+}
+
+.right-section {
+    width: 50%;
+}
+
+.right-section img {
+    width: 100%;
+}
+
+
+.about-me-box {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+    background: url(AFood-Img/aboutmebg.png) no-repeat;
+    background-size: cover;
+}
+
+.about-me-left {
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.about-me-left img {
+    width: 450px;
+
+}
+
+.about-me-right {
+    width: 50%;
+}
+
+.about-me-right h1 {
+    font-size: 50px;
+}
+
+.about-me-right p {
+    margin-right: 100px;
+    font-size: 30px;
+    padding: 50px 60px 0 0;
+}
+
+
+.my-recipies-box {
+    width: 100%;
+}
+
+.recipies-title {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.my-recipies-box .recipies-title h2 {
+    font-size: 50px;
+    padding: 100px 0 50px 0;
+}
+
+.my-recipies-box .recipies-title p {
+    font-size: 1.5em;
+    padding: 0 0 50px 0;
+}
+
+
+
+.my-recipies-box .food-back-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.my-recipies-box .food-back-box .food-box {
+    width: 35%;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 0px 20px 1px rgba(190, 182, 182, 0.76);
+    padding: 30px;
+
+}
+
+.food-box-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-box img {
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.food-box h3 {
+    padding: 22px 0;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+.food-box p {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.sub-fol-like-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px 0;
+    
+}
+.sub-fol-like{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 250px;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 20px;
+}
+
+.sub-fol-like .subsciber , .follower , .like{
+    
+}
+.sub-fol-like .subsciber h1, .follower h1, .like h1{
+    font-size: 60px;
+    padding: 10px;
+}
+.sub-fol-like .subsciber h6 ,.follower h6, .like h6{ 
+    font-size: 20px;
+}
